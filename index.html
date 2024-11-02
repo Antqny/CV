@@ -1,19 +1,53 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Мой первый заголовок</title>
-		<link rel="stylesheet" href="main.css">
-	</head>
-	<body>
-		<p class="first">Мой первый параграф</p>
-		<p class="second">Мой второй параграф</p>
-		<p id="third">Мой третий параграф</p>
-		<h>Антон Морозов</h>
-		<img src="images/wide_jake.jpg" width="300" height="200">
-		<a href="https://dtf.ru">Ссылка на ДТФ</a>
-		<a href="https://imgflip.com/m/Middle-School/tag/wide+jake+gyllenhaal"><img src="images/wide_jake.jpg" width="100" height="50"></a>
-		<button type="button">КНОПКА</button>
-		<script type="text/javascript" src="js.js"></script>
-	</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>CV_AM</title>
+  </head>
+  <body>
+    <header class="header">
+      <img src="images/photo.png" alt="photo" class="header__photo" />
+      <h1 class="header__title">Антон Морозов</h1>
+      <h3 class="header__subtitle">Один из многих</h3>
+    </header>
+    <main>
+      <section class="links">
+        <h2 class="links__header">Доступен</h2>
+        <ul class="links__container">
+          <li class="links__link">
+            <p class="links__title">Телеграм</p>
+            <a class="linsk__link" href="http://t.me/antqny_m">@antqny_m</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Эл. почта</p>
+            <a class="linsk__link" href="mailto:ant92081058@yandex.ru"
+              >ant92081058@yandex.ru</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Гит</p>
+            <a class="linsk__link" href="http://github.com/">github.com/</a>
+          </li>
+        </ul>
+      </section>
+      <section class="links">
+        <h2 class="links__header">Чем занимаюсь вечером</h2>
+        <ul class="links__container">
+          <li class="links__link">
+            <p class="links__title">Играю</p>
+            <a class="linsk__link" href="https://steamcommunity.com/profiles/76561198052729594/">Steam</a>
+          </li>
+          <li class="links__link">
+            <p class="links__title">Читаю</p>
+            <a class="linsk__link" href="https://dtf.ru">DTF</a>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <button type = "button" class="button-link" href=""> Кредо </button>
+    </footer>
+    <script type="text/javascript" src="js.js"></script>
+  </body>
 </html>
